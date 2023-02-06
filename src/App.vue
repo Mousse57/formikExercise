@@ -1,5 +1,5 @@
 <template>
-  <Formik
+  <Formik class="formik"
     :initialValues="{ name: '', email: '', password: ''}"
     :onSubmit="handleSubmit"
     :validate="validate"

@@ -22,8 +22,3 @@ export default {
   }
 }
 </script>
-<style scoped>
-input {
-  border-radius: 5px;
-}
-</style>

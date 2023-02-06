@@ -2,7 +2,7 @@
     <div>
         <div v-for="(value, key) in initialValues">
             <div>
-                <label :for="key">{{ key }}: </label>
+                <label :for="key">{{ key }} : </label>
                 <FieldInput :as="key" :name="key" @update:modelValue="initialValues[key] = $event" />
             </div>
         </div>
@@ -37,7 +37,3 @@ export default {
 }
 
 </script>
-
-<style scoped>
-
-</style>
