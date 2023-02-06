@@ -23,7 +23,7 @@ export default {
     toggleSubmitting() {
       this.submitting = !this.submitting;
     },
-    handleFormSubmit(values) {
+    handleSubmit(values) {
       this.toggleSubmitting();
       const errors = this.validateForm(values);
       if (Object.keys(errors).length === 0) {
