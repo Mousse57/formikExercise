@@ -15,7 +15,7 @@ input[type="submit"] {
     margin-top: 20px;
 }
 
-label {
+label, h2 {
     font-family: "Helvetica Neue", sans-serif;
     font-size: 14px;
     font-weight: bold;

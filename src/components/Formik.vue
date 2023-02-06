@@ -1,5 +1,6 @@
 <template>
     <div>
+        <h2>FORMIK</h2>
         <div v-for="(value, key) in initialValues">
             <div>
                 <label :for="key">{{ key }} : </label>
